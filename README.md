@@ -1,3 +1,8 @@
+
+## Swagger UI
+
+http://localhost:8080/swagger-ui/index.html
+
 # Users API
 
 REST API built with Spring Boot for managing users.
