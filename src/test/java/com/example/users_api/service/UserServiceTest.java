@@ -1,16 +1,12 @@
-package com.example.users_api;
+package com.example.users_api.service;
 
-import com.example.users_api.service.UserService;
 import com.example.users_api.model.User;
-
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
 class UserServiceTest {
 
     private final UserService userService = new UserService();
@@ -22,6 +18,5 @@ class UserServiceTest {
 
         assertNotNull(users);
         assertEquals(3, users.size());
-
     }
 }
